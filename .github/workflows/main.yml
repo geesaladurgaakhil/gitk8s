@@ -10,7 +10,6 @@ jobs:
       - name: Trials
         run: |
           echo "Hello World" >> $GITHUB_STEP_SUMMARY
-          sleep 360
         env:
           REDIS_HOST: redis
           REDIS_PORT: 6379
